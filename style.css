@@ -22,7 +22,7 @@ body {
 
 .header {
     background-image: url('./images/bg2.jpg');
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     min-height: 1000px;
     position: relative;
@@ -224,7 +224,7 @@ li{
 
 .header-blog {
     background-image: url('./images/blog.jpg');
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     min-height: 800px;
     position: relative;
