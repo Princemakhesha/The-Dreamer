@@ -28,6 +28,12 @@ body {
     position: relative;
     background-attachment: fixed;
 }
+        @media (max-width: 768px) {
+            .header {
+                background-attachment: scroll;
+                /* 👈 Fixes iOS zoom bug */
+            }
+        }
 
 .nav-link:hover {
     color: #bf925b !important;
@@ -231,7 +237,29 @@ li{
     background-attachment: fixed;
 }
 
+        @media (max-width: 768px) {
+            .header-blog {
+                background-attachment: scroll;
+                /* 👈 Fixes iOS zoom bug */
+            }
+        }
+
 .header-font-blog {
+    font-size: 80px;
+    color: white;
+    margin-top: 500px;
+}
+
+.header-error {
+    background-image: url('./images/blog.jpg');
+    /* background-position: center; */
+    background-size: cover;
+    min-height: 80px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.header-font-error {
     font-size: 80px;
     color: white;
     margin-top: 500px;
