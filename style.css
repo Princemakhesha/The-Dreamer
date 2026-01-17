@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    background-image: url('./images/bg2.jpg');
+    background-image: url('./images/NEW_BACKGROUND.JPG');
     /* background-position: center; */
     background-size: cover;
     min-height: 1000px;
@@ -68,14 +68,14 @@ body {
 }
 
 .for-men {
-    background-image: url('./images/IMG_2976.jpg');
+    background-image: url('./images/FOR_GENTS.JPG');
     min-height: 700px;
     background-position: center;
     background-size: cover;
 }
 
 .for-women {
-    background-image: url('./images/IMG_3186.jpg');
+    background-image: url('./images/FOR_LADIES.jpg');
     min-height: 900px;
     background-position: center;
     background-size: cover;
@@ -202,7 +202,7 @@ li{
 }
 
 .img-colo {
-    background-image: url('./images/IMG_2985.jpg');
+    background-image: url('./images/SOS_BG.png');
     background-size: cover;
     height: 700px;
 }
